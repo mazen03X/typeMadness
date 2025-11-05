@@ -16,6 +16,40 @@ h3,h2,h1 {
   max-width: 80%;
 }
 
+/* Style the select dropdown */
+#language {
+  margin: 15px 0;
+  padding: 10px 20px;
+  font-size: 1rem;
+
+  border: 2px solid #007bff;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #333;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+  appearance: none;       /* removes default arrow in most browsers */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  /* optional: add a custom arrow using background */
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+  padding-right: 40px; /* space for arrow */
+}
+
+#language:hover {
+  border-color: #0056b3;
+}
+
+#language:focus {
+  outline: none;
+  border-color: #28a745;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
 
 #timer {
   font-size: 2rem;
