@@ -76,7 +76,14 @@ import {paragraphs} from './paragraphs.js';
     let startTime = null;
 
     text.addEventListener("input", async () => {
-      const typed = text.value;
+      let typed = text.value;
+        // Check the last character typed
+  if (typed.endsWith("'")) {
+    // Replace the last character with a curly apostrophe
+    typed = typed.slice(0, -1) + "’";
+    text.value = typed; // update the input field
+  }
+
 
       if (target.startsWith(typed)) {
 
