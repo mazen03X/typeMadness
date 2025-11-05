@@ -8,7 +8,7 @@ export const paragraphs = [
   { timer: 35, text: "Raindrops tapped softly against the window, a lullaby for the restless mind." },
   { timer: 35, text: "He walked along the shore, leaving footprints that the waves quickly erased." },
   { timer: 30, text: "The mountain stood tall and silent, a guardian of the valley below." },
-  { timer: 30, text: "Children's laughter echoed in the park, mingling with the chirping of birds." },
+  { timer: 30, text: "Children’s laughter echoed in the park, mingling with the chirping of birds." },
   { timer: 30, text: "The clock ticked steadily, marking the passage of moments too easily lost." },
   { timer: 30, text: "She sipped her tea slowly, savoring the warmth that spread through her hands." },
   { timer: 45, text: "The library smelled of paper and ink, a sanctuary for curious souls." },
@@ -20,7 +20,7 @@ export const paragraphs = [
   { timer: 30, text: "She traced her finger along the map, imagining journeys yet to come." },
   { timer: 30, text: "The fire crackled in the hearth, casting dancing shadows on the walls." },
   { timer: 30, text: "He paused at the crossroads, uncertain which path would lead him home." },
-  { timer: 30, text: "The garden bloomed in a riot of colors, a celebration of spring's return." }
+  { timer: 30, text: "The garden bloomed in a riot of colors, a celebration of spring’s return." }
     ,
 { timer: 30, text: "The lantern swayed gently, casting golden ripples across the cobblestone path." },
 { timer: 35, text: "She tucked the letter into her coat, its words still echoing in her mind." },
@@ -252,7 +252,7 @@ export const paragraphs = [
   { timer: 35, text: "Raindrops tapped softly against the window, a lullaby for the restless mind." },
   { timer: 35, text: "He walked along the shore, leaving footprints that the waves quickly erased." },
   { timer: 30, text: "The mountain stood tall and silent, a guardian of the valley below." },
-  { timer: 30, text: "Children's laughter echoed in the park, mingling with the chirping of birds." },
+  { timer: 30, text: "Children’s laughter echoed in the park, mingling with the chirping of birds." },
   { timer: 30, text: "The clock ticked steadily, marking the passage of moments too easily lost." },
   { timer: 30, text: "She sipped her tea slowly, savoring the warmth that spread through her hands." },
   { timer: 45, text: "The library smelled of paper and ink, a sanctuary for curious souls." },
@@ -264,7 +264,7 @@ export const paragraphs = [
   { timer: 30, text: "She traced her finger along the map, imagining journeys yet to come." },
   { timer: 30, text: "The fire crackled in the hearth, casting dancing shadows on the walls." },
   { timer: 30, text: "He paused at the crossroads, uncertain which path would lead him home." },
-  { timer: 30, text: "The garden bloomed in a riot of colors, a celebration of spring's return." }
+  { timer: 30, text: "The garden bloomed in a riot of colors, a celebration of spring’s return." }
 ];
 */
     
