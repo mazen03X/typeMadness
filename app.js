@@ -20,7 +20,7 @@ import * as p from './paragraphs.js';
     option.textContent = lang.name; // text shown to user
     select.appendChild(option);
   });
-  let paragraphs =[];
+  let paragraphs =p.paragraphs_en;
   // Example: detect selection
   select.addEventListener("change", () => {
     console.log("Selected language:", select.value);
@@ -202,4 +202,5 @@ Do you want to start new round?`)){
     });
  
  
+
 
