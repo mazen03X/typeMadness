@@ -7,7 +7,8 @@ import * as p from './paragraphs.js';
     { code: "ar", name: "Arabic" },
     { code: "fr", name: "French" },
     { code: "es", name: "Spanish" },
-    { code: "de", name: "German" }
+    { code: "de", name: "German" },
+    { code: "ru", name: "Russian"},
   ];
 
   const select = document.getElementById("language");
@@ -201,3 +202,4 @@ Do you want to start new round?`)){
     });
  
  
+
