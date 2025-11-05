@@ -38,6 +38,8 @@ import * as p from './paragraphs.js';
         paragraphs = p.paragraphs_de;
     }else if(select.value == 'ru'){
         paragraphs = p.paragraphs_ru;
+    }else if(select.value =='fr'){
+        paragraphs = p.paragraphs_fr;
     }
     else{
           
@@ -202,5 +204,6 @@ Do you want to start new round?`)){
     });
  
  
+
 
 
