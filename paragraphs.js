@@ -241,6 +241,65 @@ export const paragraphs_en = [
 { timer: 30, text: "The world seemed to pause, balanced between endings and beginnings." },
 { timer: 30, text: "She breathed deeply, her heart steady, her spirit at rest." }
 ];
+
+export const paragraphs_fr = [
+   { timer: 30, text: "Le ciel s’est ouvert comme un drap de velours, respirant lentement." },
+{ timer: 30, text: "Les arbres chantaient des secrets que seul le vent comprenait." },
+{ timer: 30, text: "La rivière portait le reflet de la lune comme une confidence." },
+{ timer: 30, text: "Un lampadaire solitaire gardait la rue comme un veilleur fatigué." },
+{ timer: 35, text: "Les montagnes dormaient sous une couverture de brume." },
+{ timer: 30, text: "L’horloge battait le temps comme un cœur lointain." },
+{ timer: 30, text: "Les fenêtres brillaient comme des yeux éveillés dans la nuit." },
+{ timer: 30, text: "La mer respirait doucement, rêvant d’étoiles." },
+{ timer: 30, text: "Un chat traversa le toit, laissant des empreintes de silence." },
+{ timer: 30, text: "Les cloches sonnèrent, et l’air se remplit de souvenirs." },
+
+{ timer: 30, text: "L’horizon s’inclina pour embrasser le dernier rayon du soleil." },
+{ timer: 30, text: "Les ombres s’étiraient comme si elles voulaient toucher le ciel." },
+{ timer: 30, text: "Un enfant soufflait des bulles comme des planètes miniatures." },
+{ timer: 30, text: "La forêt murmurait des noms oubliés." },
+{ timer: 35, text: "La pluie dessinait des cercles parfaits sur l’étang." },
+{ timer: 30, text: "Un oiseau solitaire traça une ligne de feu dans le ciel." },
+{ timer: 30, text: "Les étoiles s’allumaient comme des lanternes anciennes." },
+{ timer: 30, text: "Le vent emportait des pétales comme des fragments de lune." },
+{ timer: 30, text: "Un vieux pont de pierre gardait ses histoires en silence." },
+{ timer: 30, text: "Les nuages s’ouvraient comme les pages d’un livre secret." },
+
+{ timer: 30, text: "L’aube arriva doucement, comme un soupir retenu." },
+{ timer: 30, text: "Les vagues se brisaient au rythme d’un cœur endormi." },
+{ timer: 30, text: "Le phare tournait, dessinant des cercles d’espoir." },
+{ timer: 30, text: "Le champ sentait la terre humide et les promesses anciennes." },
+{ timer: 35, text: "Les lucioles allumaient la nuit comme une chorale d’étoiles." },
+{ timer: 30, text: "Un train lointain chantait son adieu dans l’obscurité." },
+{ timer: 30, text: "Les montagnes reflétaient un bleu impossible." },
+{ timer: 30, text: "Le silence pesait comme un manteau de velours." },
+{ timer: 30, text: "Un chien aboyait à la lune comme s’il pouvait l’atteindre." },
+{ timer: 30, text: "Les rues vides gardaient des pas invisibles." },
+
+{ timer: 30, text: "Le soleil se cacha derrière un rideau de nuages dorés." },
+{ timer: 30, text: "Les cloches du village marquèrent une heure sans maître." },
+{ timer: 30, text: "Une rivière secrète coulait sous la ville endormie." },
+{ timer: 30, text: "L’air sentait le pain chaud et la paix." },
+{ timer: 35, text: "Les étoiles se reflétaient dans les flaques comme des miroirs brisés." },
+{ timer: 30, text: "Un colibri suspendu défiait le temps." },
+{ timer: 30, text: "Les montagnes se teintaient de pourpre au crépuscule." },
+{ timer: 30, text: "Le vent jouait avec les rideaux comme un enfant curieux." },
+{ timer: 30, text: "Un bateau solitaire glissait vers l’horizon." },
+{ timer: 30, text: "Les fleurs fermèrent leurs yeux à la tombée de la nuit." },
+
+{ timer: 30, text: "Le ciel nocturne ressemblait à une tapisserie brodée de feu." },
+{ timer: 30, text: "Les ombres dansaient au rythme d’une bougie tremblante." },
+{ timer: 30, text: "Une chouette observait d’en haut, sage et patiente." },
+{ timer: 30, text: "La rivière chantait des chansons jamais écrites." },
+{ timer: 35, text: "Les nuages fondaient en larmes d’argent." },
+{ timer: 30, text: "Un enfant dormait, enlacé à un rêve impossible." },
+{ timer: 30, text: "L’horizon brillait comme une promesse lointaine." },
+{ timer: 30, text: "Les étoiles guidaient des voyageurs invisibles." },
+{ timer: 30, text: "Un soupir traversa la ville comme une brise douce." },
+{ timer: 30, text: "La nuit ferma les yeux du monde avec tendresse." }
+];
+
+
 export const paragraphs_es = [
     { timer: 30, text: "El cielo se abrió en tonos de cobre, como si la tarde respirara fuego." },
 { timer: 30, text: "Las hojas danzaban en espirales, obedeciendo a un viento invisible." },
@@ -491,3 +550,4 @@ export const paragraphs_de =[
 ];
 */
     
+
