@@ -148,7 +148,7 @@ textarea:focus {
 /* For tablets and smaller screens */
 @media (max-width: 768px) {
   h1,h2,h3 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: teal;
   }
 }
@@ -156,7 +156,7 @@ textarea:focus {
 /* For phones */
 @media (max-width: 480px) {
   h1,h2,h3 {
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     color: darkgreen;
   }
 }
