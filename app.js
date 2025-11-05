@@ -1,5 +1,52 @@
-import {paragraphs} from './paragraphs.js';
-    
+import * as p from './paragraphs.js';
+
+
+
+ const languages = [
+    { code: "en", name: "English" },
+    { code: "ar", name: "Arabic" },
+    { code: "fr", name: "French" },
+    { code: "es", name: "Spanish" },
+    { code: "de", name: "German" }
+  ];
+
+  const select = document.getElementById("language");
+
+  // Loop through array and create <option> for each
+  languages.forEach(lang => {
+    const option = document.createElement("option");
+    option.value = lang.code;   // value used in JS
+    option.textContent = lang.name; // text shown to user
+    select.appendChild(option);
+  });
+  let paragraphs =[];
+  // Example: detect selection
+  select.addEventListener("change", () => {
+    console.log("Selected language:", select.value);
+    if(select.value =='en'){
+        paragraphs = p.paragraphs_en;
+
+    }else if(select.value == 'ar'){
+        
+        paragraphs = p.paragraphs_ar;
+
+    }else if(select.value == 'es'){
+        paragraphs = p.paragraphs_es;
+
+    }else if(select.value == 'de'){
+        paragraphs = p.paragraphs_de;
+    }else if(select.value == 'ru'){
+        paragraphs = p.paragraphs_ru;
+    }
+    else{
+          
+        paragraphs = p.paragraphs_en;
+        
+    }
+  });
+
+
+
     let countdown = null;
     async function _SetTimer(){
         countdown = null;
